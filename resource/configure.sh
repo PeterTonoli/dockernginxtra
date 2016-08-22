@@ -35,5 +35,4 @@
 	--add-module=../ngx_pagespeed-release-1.11.33.2-beta \
         --add-module=../ngx_brotli \
         --add-module=../nginx-upstream-fair
-#        --with-cpu-opt=pentium4 \
 

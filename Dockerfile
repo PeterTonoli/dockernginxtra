@@ -21,7 +21,6 @@ WORKDIR /root/build
 RUN unzip release-1.11.33.2-beta.zip
 WORKDIR /root/build/ngx_pagespeed-release-1.11.33.2-beta 
 ADD https://dl.google.com/dl/page-speed/psol/1.11.33.2.tar.gz /root/build/ngx_pagespeed-release-1.11.33.2-beta/
-#COPY /1.11.33.2.tar.gz /root/build/ngx_pagespeed-release-1.11.33.2-beta/
 WORKDIR /root/build/ngx_pagespeed-release-1.11.33.2-beta
 RUN tar -xvzf 1.11.33.2.tar.gz
 
