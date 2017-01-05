@@ -25,7 +25,7 @@ WORKDIR /root/build/ngx_pagespeed-release-1.11.33.2-beta
 RUN tar -xvzf 1.11.33.2.tar.gz
 
 WORKDIR /root/build/ngx_brotli
-RUN git clone https://github.com/google/ngx_brotli.git /root/build/ngx_brotli/
+RUN git clone --recursive https://github.com/google/ngx_brotli.git /root/build/ngx_brotli/
 
 WORKDIR /root/build/nginx-upstream-fair
 RUN git clone https://github.com/gnosek/nginx-upstream-fair.git /root/build/nginx-upstream-fair/
